@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.qa.EtsyTest2">
+        <methods>
+          <include name="testFluentPageObject"/>
+          <include name="testWithPageObject"/>
+        </methods>
+      </class> <!-- test.qa.EtsyTest2 -->
+      <class name="test.qa.EtsyTest1">
+        <methods>
+          <include name="testFluentPageObject"/>
+          <include name="testWithPageObject"/>
+        </methods>
+      </class> <!-- test.qa.EtsyTest1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
